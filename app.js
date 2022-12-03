@@ -18,9 +18,9 @@
 // const AUTHOR = 2;
 var Role;
 (function (Role) {
-    Role["ADMIN"] = "ADMIN";
-    Role[Role["READ_ONLY"] = 100] = "READ_ONLY";
-    Role["AUTHOR"] = "AUTHOR";
+    Role[Role["ADMIN"] = 10] = "ADMIN";
+    Role[Role["READ_ONLY"] = 11] = "READ_ONLY";
+    Role[Role["AUTHOR"] = 12] = "AUTHOR";
 })(Role || (Role = {}));
 ;
 var person = {

@@ -18,7 +18,7 @@
 // const READ_ONLY = 1;
 // const AUTHOR = 2;
 
-enum Role { ADMIN = 'ADMIN', READ_ONLY = 100, AUTHOR = 'AUTHOR' };
+enum Role { ADMIN = 10, READ_ONLY, AUTHOR };
 
 const person = {
   name: 'Maximilian',
